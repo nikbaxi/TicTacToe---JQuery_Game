@@ -1,0 +1,94 @@
+body
+{
+    color: white;
+    background: grey;
+}
+@media (min-width: 100px) 
+{
+    table
+    {
+        width: 20vm;
+        margin: 0 auto;
+    }
+    #h1
+    {
+        font-size: 20px;
+        text-align: center;
+    }
+    .h1{
+        font-size: 20px;
+    }
+}
+
+/* Medium devices (tablets) */
+@media (min-width: 768px) 
+{
+    table
+    {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+}
+
+/* Large devices (desktops) */
+@media (min-width: 992px) 
+{
+    table
+    {
+        width: 50%;
+        margin: 0 auto;
+    }
+    #h1
+    {
+        font-size: 20px;
+        text-align: center;
+    }
+    .h1{
+        font-size: 20px;
+        text-align: center;
+    }
+}
+
+/* Extra large devices (large desktops) */
+@media (min-width: 1200px) 
+{
+    table
+    {
+        width: 40%;
+        margin: 0 auto;
+    }
+    #h1
+    {
+        font-size: 20px;
+        text-align: center;
+    }
+    .h1{
+        font-size: 20px;
+        text-align: center;
+    }
+}
+
+td
+{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.vertical
+{
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+}
+
+.horizontal
+{
+    border-top: 2px solid white;
+}
+input[type=radio] {
+    border: 0px;
+    width: 5%;
+    height: 1.5em;
+}

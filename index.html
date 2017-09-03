@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tic Tac Toe</title>
+
+    <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous"> -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css"> -->
+     
+    <link rel="stylesheet" type="text/css" href="Tic Tac Toe.css">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"/> -->
+</head>
+<body>
+    <div id="askPlayer" class="center">    
+            <h4 id="h1" >Choose with whom you wanna play</h4><br>
+            <center>
+            <input type="radio" name="selectPlayer" value="player2" >Player</input>
+            <input type="radio" name="selectPlayer" value="computer">Computer</input>
+            </center>
+    </div>
+    <div id="chooseCode">
+        <h4 id="chooseCode" class="h1" style="display: inline-block;" >Choose if you waht to be X or O  :</h4>
+            <select>
+                <option id="X">X</option>
+                <option id="O">O</option>
+            </select>
+    </div>
+
+    <div class="container">
+
+    <h1 id="h1" class="center">Tic Tac Toe</h1>
+
+        <div id="board">
+            <table>
+                <tr>
+                    <td id="b1"></td>
+                    <td id="b2" class="vertical"></td>
+                    <td id="b3"></td>
+                </tr>
+
+                <tr>
+                    <td id="b4" class="horizontal"></td>
+                    <td id="b5" class="vertical horizontal"></td>
+                    <td id="b6" class="horizontal"></td>
+                </tr>
+
+                <tr>
+                    <td id="b7" class="horizontal"></td>
+                    <td id="b8" class="vertical horizontal"></td>
+                    <td id="b9" class="horizontal"></td>
+                </tr>
+            </table>
+        </div>
+        <div id="message"></div>
+    </div>
+    <div id="playerChance"></div>
+    <div> 
+        <span>
+            <br>
+            <br>
+        </span>
+        <center><button id="homePage">Go Home</button></center>
+    </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script> -->
+    <script type="text/javascript" src="Tic Tac Toe update.js"></script>
+</body>
+</html>
